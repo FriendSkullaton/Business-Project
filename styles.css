@@ -1,3 +1,160 @@
 html {
     font-size: 16px;
+    font-family: 'Sono', monospace, sans-serif;
+}
+
+main{
+    text-align:center;
+    background-color:black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Header */
+
+header{
+    position: fixed;
+    background-color: #690000;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 0.3125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-right: 15px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    padding: 5px;
+}
+
+nav a{
+    color: #EE4747;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #6B2020;
+}
+
+.logo {
+    font-family: 'Rubik Vinyl', cursive;
+    text-decoration: none;
+    color: #EB0000;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+    margin-left: 20px;
+}
+
+/* Revenge Section */
+
+.revengecontainer{
+    background-image: url('img/prove-them-wrong.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.revenge {
+    background-color: #6B2020;
+    padding: 25px;
+    line-height: 35px;
+}
+
+.revengetext{
+    font-family: 'Rubik Vinyl', cursive;
+    color:#EB0000;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+    letter-spacing:4px;
+}
+
+/* Hire */
+
+.how {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.example1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:#690000;
+}
+
+.example2 {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:#6B2020;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    BACKGROUND-color: #690000;
+}
+
+.how img {
+    max-height: 500px;
+    max-width: 500px;
+    padding: 15px;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #6B2020;
+    max-width: 100%;
+    max-height: 60%;
+    margin: auto;
+}
+
+#testimonials img {
+    max-height: 40%;
+    max-width: 40%;
+    padding: 5px;
+}
+
+.testcontainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.testbox {
+    background-color:#EE4747;
+    margin: 0 50px;
 }
