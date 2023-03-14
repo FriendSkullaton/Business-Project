@@ -1,12 +1,29 @@
-html {
+html, body {
     font-size: 16px;
     font-family: 'Sono', monospace, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 main{
     text-align:center;
     background-color:black;
     color:#EE4747;
+}
+
+#testimonials img, #about img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.imgcontainer {
+    background-color:#6B2020;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -99,7 +116,6 @@ nav a{
 /* Hire */
 
 .how {
-    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap:wrap;
@@ -112,15 +128,17 @@ nav a{
     border: 1px solid red;
     border-radius: 15px;
     margin:0px 30px;
-    height: 500px;
-    width: 500px;
+    max-height: 500px;
+    max-width: 500px;
     padding: 15px;
+    display: flex;
 }
 
 .how img {
-    max-height: 200px;
-    max-width: 200px;
-    padding: 15px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
 }
 
 /* Testimonials */
@@ -132,11 +150,6 @@ nav a{
     max-height: 60%;
 }
 
-#testimonials img {
-    max-height: 500px;
-    max-width: 500px;
-    padding: 15px;
-}
 
 .testcontainer {
     display: flex;
@@ -150,39 +163,40 @@ nav a{
 .testbox {
     background-color:#EE4747;
     margin: 0px 1.25rem;
-    Display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
     color:#6B2020;
+    width: 20%;
+    height: 40%;
 }
 
 /* About Us */
 
 #about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    flex-wrap:wrap;
     padding: 25px;
 }
 
-#about img{
-    max-height: 500px;
-    max-width: 500px;
-}
 
 .aboutcontainer {
     display:flex;
     flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .person {
     padding: 15px;
     border: 1px solid red;
     margin: 0px 1.25rem;
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer {
